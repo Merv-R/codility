@@ -41,6 +41,7 @@ i2=bin_num[::-1].find('1')
 bin_num=bin_num[i1:len(bin_num)-i2]
 # print(bin_num)
 
+# Split the string while having '1' as the delimiter and putting it in a list
 temp=bin_num.split('1')
 # print(temp)
 print(len(max(temp)))
